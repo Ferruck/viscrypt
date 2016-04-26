@@ -8,7 +8,7 @@ I've written this tool because the only other application I found online was a `
 
     python3 viscrypt.py IMAGE_NAME
     
-This will create to images, `IMAGE_NAME_share1.png` and `IMAGE_NAME_share2.png`.
+This will create two images, `IMAGE_NAME_share1.png` and `IMAGE_NAME_share2.png`.
 
 ##Notes
 
