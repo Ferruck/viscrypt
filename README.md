@@ -1,16 +1,16 @@
-#viscrypt
+# viscrypt
 
 Simple tool for creating (2,2) visual cryptography schemes. These are described by various authors, first by [Naor & Shamir (1994)](http://www.cs.nccu.edu.tw/~raylin/UndergraduateCourse/ComtenporaryCryptography/Spring2009/VisualCrypto.pdf).
 
 I've written this tool because the only other application I found online was a `jar`.
 
-##Usage
+## Usage
 
     python3 viscrypt.py IMAGE_NAME
     
 This will create two images, `IMAGE_NAME_share1.png` and `IMAGE_NAME_share2.png`.
 
-##Notes
+## Notes
 
 * Pixel expansion is not handled in any way. Therefore the resulting shares will be twice the height of the original image.
 
@@ -20,6 +20,6 @@ This will create two images, `IMAGE_NAME_share1.png` and `IMAGE_NAME_share2.png`
 
 * I've only tested this with Python 3, Python 2 could work though.
 
-##License
+## License
 
 MIT-License (see the `LICENSE` file for details).
